@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Santio";
+  src: url("../fonts/SANTIO/TTF/Santio\ Bold.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@300;400&display=swap');
+
+/* Ich habe absichtlich id und classen verwendet, deswegen ist diese Coden nicht so sauber und ein bisschen kompliziert. Im Voraus entschuldige ich mich für unordentliche Coden :) Spaß beim Lesen :) **/
+
+/**********************************************DEFAULT ********************************/
+body{
+  margin: 0;
+  padding:0;
+  font-size: 10px;
+}
+/********************************************** COLORS ********************************/
+.pink {
+  color: #cb91b6;
+}
+
+.green {
+  color: #6bc1a3;
+}
+
+.yellow {
+  color: #e7bc0e;
+}
+
+.blue {
+  color: #7eb8e1;
+}
+
+.white {
+  color: white;
+}
+
+/********************************************** MARKING SPANS ********************************/
+.marking {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 5px 5px 10px 5px;
+}
+
+/********************************************** HEADLINES FONT ********************************/
+h1,h2,h3,h4 {
+  font-family: "Santio";
+}
+
+/********************************************** MAIN TAG ********************************/
+main p:first-of-type {
+  text-align: right;
+  margin: 0;
+  padding: 5px 0;
+}
+
+/*************** FIRST SVG HERZ ********/
+#firstSVG {
+  width: 20px;
+  padding-right: 20px;
+}
+
+#brandAnchor {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 100px;
+  border-bottom: 3px solid #e7bc0e;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#main_tag {
+  background: rgba(0, 0, 0, .6) url('../img/cleo-topper.jpg') center/cover no-repeat fixed;
+  background-blend-mode: multiply;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#main_tag h2 {
+  font-size: 4.5rem;
+  width: 30%;
+  margin: 100px 0;
+}
+/*************** SCROLL and ARROW ********/
+#scrolling {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-style: italic;
+}
+#scrolling #arrow{
+  writing-mode: vertical-rl;
+}
+/*************** MAIN HEADLINES ********/
+
+#firstHeadline4 {
+  font-size: 2.8rem;
+  width: 65%;
+  margin: 600px auto;
+  line-height: 80px;
+}
+.oddH1 {
+  font-size: 12rem;
+  width: 65%;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.oddH3 {
+  font-size: 3.2rem;
+  margin: 0;
+  margin-bottom: 400px;
+}
+
+.evenH1 {
+  font-size: 12rem;
+  width: 65%;
+  margin: 0;
+  margin-bottom: 400px;
+}
+
+.evenH3 {
+  font-size: 3.2rem;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#secondHeadline4 {
+  font-size: 2.8rem;
+  width: 56%;
+  margin-left: auto;
+  line-height: 80px;
+  margin-bottom: 0;
+}
+
+/*************** SVG 3 IMAGES  ********/
+.svg_fotos {
+  width: 200px;
+}
+
+
+/*************** SECTION FOR IMAGES KID and SEE *************************/
+#section1 {
+  margin: 0;
+  padding:0;
+  width: 100%;
+  background: rgba(0,0,0,.5) url('../img/see.png') center/cover no-repeat;
+  background-blend-mode: multiply;
+}
+
+#section1 img {
+  width: 100%;
+}
+
+/*************** FOOTER TAG *************************/
+footer {
+  padding-top: 500px;
+  padding-left: 100px;
+  background-color: black;
+}
+
+#helpHeadline {
+  width: 65%;
+  margin: 0;
+  font-size: 7rem;
+  padding-bottom: 100px;
+}
+
+/*************** DONATE BUTTON ************/
+#donateButton {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  border: 2px solid white;
+  border-radius: 2px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#donateButton:hover {
+  box-shadow: 10px 10px;
+}
+#lastParagraph {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: .8rem;
+  padding-top: 400px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+#lastParagraph a {
+  text-decoration: none;
+  color: #6bc1a3;
+}
+
+#lastParagraph a:hover {
+  text-decoration: underline;
+}
